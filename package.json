@@ -1,0 +1,23 @@
+{
+  "name": "parchment-online",
+  "version": "1.0.0",
+  "description": "Make your content more beautiful.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leverz/parchment-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leverz/parchment-online/issues"
+  },
+  "homepage": "https://github.com/leverz/parchment-online#readme",
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
+}
