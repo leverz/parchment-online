@@ -5,6 +5,9 @@ block content
   p Welcome to #{title}
   p Let's make your content more beautiful!
   form(method= 'post', enctype= 'multipart/form-data', action= '/file')
+    select(name='fromType')
+      each item in types
+        option(value=item.id) #{item.name}
     input(
       type= 'file'
       name= 'upload'
